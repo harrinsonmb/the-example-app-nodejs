@@ -33,8 +33,28 @@ git clone https://github.com/contentful/the-example-app.nodejs.git
 cd the-example-app.nodejs
 ```
 
+Installation
+
 ```bash
 npm install
+```
+
+Run unit tests
+
+```bash
+npm run test:unit
+```
+
+Run integration tests
+
+```bash
+npm run test:integration
+```
+
+Run e2e tests
+
+```bash
+npm run test:e2e "unit"
 ```
 
 ## Steps for read-only access
