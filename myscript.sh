@@ -1,2 +1,2 @@
 #!/bin/sh
-BUILD_ID=dontKillMe forever -a -l myforever.log app.js
+BUILD_ID=dontKillMe pm2 start app.js --name "node"
